@@ -23,7 +23,6 @@ public enum SoundEffect {
             // Use URL (instead of File) to read from disk and JAR.
             URL url = new File(soundFileName).toURI().toURL();
             // Set up an audio input stream piped from the sound file.
-            System.out.println(url);
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(url);
             // Get a clip resource.
             clip = AudioSystem.getClip();
