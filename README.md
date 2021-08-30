@@ -1,7 +1,7 @@
 # Minesweeper
 A Minesweeper clone made in Java.
 
-![](src/demo.gif)
+![](assets/demo.gif)
 
 # To Play
 Clone the repo and run the [Driver](https://github.com/JY2452/minesweeper/blob/master/src/Driver.java) located in the `src directory`.
